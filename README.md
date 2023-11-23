@@ -226,5 +226,5 @@ Distributed under the MIT License. See [LICENSE](https://github.com/nicr0s/steel
 ## Acknowledgements
 
 * [nicr0s](https://github.com/nicr0s/)
-* []()
+* [Naoo0](https://github.com/Naoo0)
 * []()
