@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Steel Duel</title>
+  <desc id="desc">Steel meets sorcery. A local two-player fantasy fighting game built with Python and Pygame.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171b24"/><stop offset="1" stop-color="#090d13"/></linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f0f1ef"/><stop offset=".5" stop-color="#8998a8"/><stop offset="1" stop-color="#dce4ea"/></linearGradient>
+    <radialGradient id="aura"><stop stop-color="#6d4067" stop-opacity=".35"/><stop offset="1" stop-color="#6d4067" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#ffffff" stroke-opacity=".025" fill="none"/></pattern>
+  </defs>
+  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+  <rect x="0" y="0" width="7" height="360" rx="3" fill="#e8bc68"/>
+  <ellipse cx="960" cy="170" rx="245" ry="215" fill="url(#aura)"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="58" y="54" fill="#a69378" font-size="12" letter-spacing="3.4">A FANTASY ARENA / A SHARED KEYBOARD</text>
+    <text x="54" y="151" fill="#f5f1e9" font-size="83" font-weight="800" letter-spacing="1">STEEL <tspan fill="#e8bc68">DUEL</tspan></text>
+    <text x="58" y="199" fill="#e3d5c2" font-size="27">Steel meets sorcery.</text>
+    <text x="58" y="236" fill="#9ba6b5" font-size="17">Warrior vs. wizard. Two players. One arena.</text>
+    <g font-size="12" letter-spacing="1" fill="#dcd2c4">
+      <rect x="58" y="271" width="130" height="33" rx="5" fill="#27262a" stroke="#4b4032"/><text x="123" y="292" text-anchor="middle">LOCAL 1 VS 1</text>
+      <rect x="200" y="271" width="160" height="33" rx="5" fill="#27262a" stroke="#4b4032"/><text x="280" y="292" text-anchor="middle">PIXEL ANIMATION</text>
+      <rect x="372" y="271" width="155" height="33" rx="5" fill="#27262a" stroke="#4b4032"/><text x="449.5" y="292" text-anchor="middle">PYTHON + PYGAME</text>
+    </g>
+  </g>
+  <g transform="translate(860 45)">
+    <circle cx="140" cy="128" r="114" fill="none" stroke="#624b66" stroke-opacity=".6"/>
+    <circle cx="140" cy="128" r="97" fill="none" stroke="#624b66" stroke-opacity=".35" stroke-dasharray="3 12"/>
+    <g transform="rotate(32 125 127)">
+      <path d="M118 37 131 17 144 37V166H118Z" fill="url(#steel)"/>
+      <path d="M131 27V160" stroke="#f2f3f1" stroke-opacity=".5"/>
+      <path d="M99 165H163L168 177H94Z" fill="#e8bc68"/>
+      <rect x="123" y="177" width="16" height="40" rx="3" fill="#645344"/>
+      <circle cx="131" cy="221" r="12" fill="#d7a954"/>
+    </g>
+    <g transform="rotate(-25 148 130)">
+      <path d="M159 90V225" stroke="#8a657f" stroke-width="8"/>
+      <path d="M132 56 159 29 186 56 174 91H144Z" fill="#392843" stroke="#a777bc" stroke-width="2"/>
+      <path d="m159 42 12 15-12 25-12-25Z" fill="#d5a0e8"/>
+      <path d="M133 57H117M185 57H201M159 30V15" stroke="#9f73b0" stroke-width="2"/>
+    </g>
+    <text x="140" y="282" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="4" fill="#9c879f">ENTER THE ARENA</text>
+  </g>
+</svg>
